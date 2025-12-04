@@ -1,0 +1,31 @@
+export const banks = [
+  { id: '1', name: 'Access Bank', code: '044' },
+  { id: '2', name: 'Citibank Nigeria', code: '023' },
+  { id: '3', name: 'Ecobank Nigeria', code: '050' },
+  { id: '4', name: 'Fidelity Bank', code: '070' },
+  { id: '5', name: 'First Bank of Nigeria', code: '011' },
+  { id: '6', name: 'First City Monument Bank', code: '214' },
+  { id: '7', name: 'Globus Bank', code: '103' },
+  { id: '8', name: 'Guaranty Trust Bank', code: '058' },
+  { id: '9', name: 'Heritage Bank', code: '030' },
+  { id: '10', name: 'Keystone Bank', code: '082' },
+  { id: '11', name: 'Kuda Bank', code: '090267' },
+  { id: '12', name: 'Opay', code: '100004' },
+  { id: '13', name: 'Palmpay', code: '100033' },
+  { id: '14', name: 'Polaris Bank', code: '076' },
+  { id: '15', name: 'Providus Bank', code: '101' },
+  { id: '16', name: 'Stanbic IBTC Bank', code: '221' },
+  { id: '17', name: 'Standard Chartered Bank', code: '068' },
+  { id: '18', name: 'Sterling Bank', code: '232' },
+  { id: '19', name: 'Union Bank of Nigeria', code: '032' },
+  { id: '20', name: 'United Bank for Africa', code: '033' },
+  { id: '21', name: 'Unity Bank', code: '215' },
+  { id: '22', name: 'Wema Bank', code: '035' },
+  { id: '23', name: 'Zenith Bank', code: '057' },
+];
+
+export const sampleBeneficiaries = [
+  { id: '1', name: 'John Adeyemi', accountNumber: '0123456789', bankCode: '058', bankName: 'GTBank' },
+  { id: '2', name: 'Mary Okonkwo', accountNumber: '9876543210', bankCode: '033', bankName: 'UBA' },
+  { id: '3', name: 'David Chukwu', accountNumber: '5678901234', bankCode: '044', bankName: 'Access Bank' },
+];
