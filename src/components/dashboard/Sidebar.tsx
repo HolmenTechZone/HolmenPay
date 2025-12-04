@@ -10,6 +10,8 @@ import {
   CloseIcon,
 } from "../icons/Icons";
 
+
+
 interface SidebarProps {
   activeTab: string;
   setActiveTab: (tab: string) => void;
@@ -47,8 +49,13 @@ const Sidebar: React.FC<SidebarProps> = ({
       >
         <div className="flex items-center justify-between p-6 border-b border-white/10">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center">
-              <WalletIcon className="w-6 h-6 text-white" />
+            <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center">
+              {/* <WalletIcon className="w-6 h-6 text-white" /> */}
+              <img
+                src={"Holmen-logo.png"}
+                alt="Holmen Pay Logo"
+                className="w-16 h-16 object-contain"
+              />
             </div>
             <span className="text-xl font-bold text-white">Holmen Pay</span>
           </div>
